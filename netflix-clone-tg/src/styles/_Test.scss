@@ -1,0 +1,21 @@
+.text-rank {
+  -webkit-text-stroke: 4px gray;
+  color: black;
+  font-size: 15rem;
+  font-weight: bold;
+  letter-spacing: -20px;
+}
+
+.slider-image {
+  object-fit: contain;
+  width: 8rem;
+  margin-right: 10px;
+  transition: transform 450ms;
+  margin-left: -10px;
+  margin-bottom: -32px;
+}
+
+.slider-image:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
